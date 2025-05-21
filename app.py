@@ -9,7 +9,7 @@ if "names" not in st.session_state:
 name=st.text_input("이름입력")
 
 score=st.number_input("점수 입력",min_value=0,max_value=100)
-
+# push
 
 if st.button("입력"):
     if name:
